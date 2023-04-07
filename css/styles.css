@@ -36,7 +36,7 @@ header{
     justify-content:space-around; 
 }
 header h1{
-    letter-spacing: 5px;
+    /* letter-spacing: 5px; */
 }
 header ul{   
     display: flex;
@@ -77,6 +77,8 @@ main .intro{
 }
 main .intro h1{
     align-self: center;
+    letter-spacing: 0.4rem;
+    
 }
 main .intro h2{
     color: rgb(207, 207, 207);
@@ -99,7 +101,7 @@ main .intro .connections{
 main .edu{
     grid-column-end: span 4;
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     overflow: hidden;
 }
 main .edu h1{
@@ -135,7 +137,7 @@ main .skills{
     grid-column-end: span 4;
     grid-row-end: span 1;
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     overflow: hidden;
 }
 main .skills .box{
