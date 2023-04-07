@@ -207,14 +207,3 @@ footer{
         width: 30%;
         justify-content: space-around;
     }
-@media (600px > width) {
-    body{
-        /* visibility: hidden; */
-    }
-    body header{
-        height: 70px;
-        width:600px;
-        overflow: auto;
-
-    }
-}
